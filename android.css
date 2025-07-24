@@ -14,15 +14,15 @@
 
 .navbar-header{
     background-color: rgb(255,255,255);
-    width: auto;
+    width: 570px;
     height: 90px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     object-fit: cover;
-     gap: 460px;
-}
+     gap: 410px;
+} 
 
 .navbar-menu{
     color: #000;
@@ -121,7 +121,7 @@
     font-size: 20px;
 }
 
-.cart {
+.cart , .joinbtn {
     width: 170px;
     height: 40px; /* Increased height for better visual appeal */
     color: white;
@@ -141,6 +141,13 @@
     transform: translateY(-2px); /* Slight lift effect on hover */
     background-color: #FF6B08; /* Slightly brighter background on hover */
 }
+
+.joinbtn:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5); /* Increased shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    background-color: #FF6B08; /* Slightly brighter background on hover */
+}
+
 
 .shop-container{
     background-color: rgb(255,255,255);
@@ -238,6 +245,85 @@
     color:rgb(255,255,255) ;
     margin-top: 15px;
 }
+
+.join{
+    background-image: url("https://videos.openai.com/vg-assets/assets%2Ftask_01k0x13sjee6xsbwzdb5htqkpz%2F1753321000_img_1.webp?st=2025-07-24T00%3A33%3A42Z&se=2025-07-30T01%3A33%3A42Z&sks=b&skt=2025-07-24T00%3A33%3A42Z&ske=2025-07-30T01%3A33%3A42Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=CsGEzzoVOc0sYjTaPPEWykBJUkhnfhzMZ9r4jimWviI%3D&az=oaivgprodscus");
+    background-size: cover;
+    width: 565px;
+    height: 310px;
+     display: flex;
+     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+     border-radius: 10px;
+     padding: 10px;
+
+}
+
+.input{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.joinbtn{
+    border-radius: 0px;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+}
+
+.tanu{
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.inna-img{
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.inna-parah{
+    margin: 10px;
+    padding: 10px; 
+    height: 120px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    opacity: 0.5;
+}
+
+.inna-list{
+    line-height: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    opacity: 0.5;
+}
+
+.logi{
+    width: 60px;
+}
+
+.logos{
+    margin: 10px;
+    padding: 10px;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    
+
 
 
 
