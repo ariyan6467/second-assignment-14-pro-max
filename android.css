@@ -186,4 +186,61 @@
    opacity: 0.5;
 }
 
+.deals-img{
+    width: 510px;
+    height: 250px;
+    border-radius: 20px;
+    border: none;
+    /* background-image: url("https://github.com/ProgrammingHero1/B12A02-Responsive-Flowers/blob/main/assets/deal-bloom.png?raw=true"); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255,255,255);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.deals{
+    background-color: rgb(255,255,255);
+    width: 585px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+}
+
+.deals-head{
+    background-color:rgb(255,255,255);
+    height: 80px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.deals-parah{
+    background-color:rgb(255,255,255);
+    height: 80px;
+    width: 460px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.6;
+}
+
+.section{
+   text-align: center;
+    margin-top: 70px;
+}
+.anu{
+    color:rgb(255,255,255) ;
+    margin-top: 15px;
+}
+
+
+
+
+
 
